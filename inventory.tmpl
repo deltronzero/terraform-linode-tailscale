@@ -1,0 +1,7 @@
+${cat}:
+   hosts:
+     ${addr}:
+   vars:
+%{for var in vars ~}
+     ${var}
+%{endfor ~}
