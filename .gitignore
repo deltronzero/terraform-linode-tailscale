@@ -1,0 +1,7 @@
+ansible/inventory/terraform1.yml
+.terraform*
+terraform.tfstate*
+tmp
+ansible/secrets.ini
+ansible/wg0.conf
+secret.tfvars

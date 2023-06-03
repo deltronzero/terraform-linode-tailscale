@@ -18,3 +18,4 @@ shred -u /tmp/ts
 
 # disable password ssh auth
 echo PasswordAuthentication=no > /etc/ssh/sshd_config.d/99-disablepassword.conf
+systemctl restart sshd
